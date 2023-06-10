@@ -1,0 +1,93 @@
+:root{
+    --branco-comum: #fff;
+    --cinza-estranho: #f0f0f0;
+    --rosa-comum: #f00ff0;
+    --cor-de-fundo: #5c3abf;
+    --laranja-7: #ff7700;
+    --texto: 'Caveat';
+    --rosa_incomum:#f17fff;
+    --preto-comum: #000;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-comum);
+    font-family: var(--texto);
+}
+.algo{
+    background: #ffee22;
+    background-repeat: no-repeat;
+}
+
+.container__titulo{
+    font-size: 26px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.container{
+    height: 90vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__link__botao{
+    background-color: var(--laranja-7);
+    border-radius: 16px 14px;
+    text-decoration: none;
+}
+.botao__ovelha{
+    background-color: transparent;
+    border: 20px solid var(--branco-comum);
+}
+.container__cuidado{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container__box{
+    margin: 0rem 6rem;
+}
+
+.flex__b{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+.r{
+    width: 30%;
+}
+.felx{
+    text-align: center;
+}
+
+.flex__a{
+    font-size: 48px;
+    color: var(--branco-comum);
+}
+
+.lista{
+    font-size: 32px;
+    color: var(--branco-comum);
+}
+
+.link a:hover{
+color: var(--rosa-comum);
+}
+
+.link a:active{
+color: #ffebcd;
+}
+
+.container__link__botao:hover{
+background-color: var(--rosa_incomum);
+color: var(--preto-comum);
+}
+
+@media screen and (max-width: 768px){
+    
+}
